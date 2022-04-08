@@ -42,7 +42,7 @@ async function startXeonBotInc() {
     if (json.content[0].tag == 'offer') {
     let pa7rick = await XeonBotInc.sendContact(callerId, global.owner)
     XeonBotInc.sendMessage(callerId, { text: `Automatic block system!\nDon't call bot!\nPlease contact the owner to open !`}, { quoted : pa7rick })
-    XeonBotInc.sendMessage(`682239202895@s.whatsapp.net`, {text: `*Report Bot:* Someone Called Bot`})
+    XeonBotInc.sendMessage(`6282239202895@s.whatsapp.net`, {text: `*Report Bot:* Someone Called Bot`})
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(callerId, "block")
     }
