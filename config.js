@@ -32,7 +32,7 @@ global.packname = 'Bobo Bot' //sticker package name
 global.author = 'By Dream Guy Alwi' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
-global.sp = '⭔' //design
+global.sp = '۝' //design
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
